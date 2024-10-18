@@ -1,10 +1,20 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const reversedWord = reverse(word);
+
+  return word === reversedWord;
 }
 
 /* 
   Add your pseudocode here
+  
 */
+const reversedWord = reverse(word)
+if(word === reversedWord){
+  return true
+}else{
+  return false
+}
 
 /*
   Add written explanation of your solution here
